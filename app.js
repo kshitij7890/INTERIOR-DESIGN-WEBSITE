@@ -44,11 +44,17 @@ app.post('/auth', function(request, response) {
 	} else {
 		response.send('Please enter your information !');
 		response.end();
-	}
+	} 
 });
 
 app.get('/temp', function(request, response) {
    response.sendFile(path.join(__dirname + '/public/temp.html'));
 });
 
-app.listen(3000);
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3000;
+}
+app.listen(port,function(){
+	console.log("Server has started successfully...");
+});
