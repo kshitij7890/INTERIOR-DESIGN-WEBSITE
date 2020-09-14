@@ -14,8 +14,8 @@ The project was designed using HTML, CSS, Javascript and bootsrap, and nodeJS an
 
 The various webpages in the project are: 
 
-  <-> index.html          -->  The homepage of the website.
-  <-> services.html       -->  This page displays the various services offered by the firm.
-  <-> aboutus.html        -->  This page shows a brief detail about the mission of the firm.
-  <-> portfolio.html      -->  This page displays the various designs that are available.
-  <-> contactus.html      -->  This page provides a form to contact the firm. It also shows a location of a retail store of the firm.
+##### <-> index.html          -->  The homepage of the website.
+##### <-> services.html       -->  This page displays the various services offered by the firm.
+##### <-> aboutus.html        -->  This page shows a brief detail about the mission of the firm.
+##### <-> portfolio.html      -->  This page displays the various designs that are available.
+##### <-> contactus.html      -->  This page provides a form to contact the firm. 
